@@ -38,7 +38,7 @@ fetchCountries(searchRequest)
         });
 }
 }
- function watchCantry(country){
+ function watchCountry(country){
   writeList('');
   const str =`
    <img class="country-flag" src="${country.flags.svg}" alt="flag ${country.name.common}" width="40" height="30">
